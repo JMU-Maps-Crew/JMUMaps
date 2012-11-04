@@ -1056,3 +1056,12 @@
     overflow: visible !important;
   }
 }
+
+/* Google maps stuff added here */
+#map-canvas {
+  height: 500px;
+}
+
+#visualization {
+  height: 400px;
+}
