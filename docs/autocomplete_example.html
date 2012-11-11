@@ -102,7 +102,7 @@
         var map = new google.maps.Map(document.getElementById('map-canvas'), {
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           center: new google.maps.LatLng(38.438472,-78.873727),
-          zoom: 15,
+          zoom: 15
         });
 
         var infoWindow = new google.maps.InfoWindow();
@@ -131,7 +131,7 @@
           infoWindow.setContent(e.infoWindowHtml +
               '<br><label>Get Directions to here:</label> ' +
               '<input type="text" id="begin">' +
-              '<input type="button" value="go" onclick="changeQuery(document.getElementById('begin').value);" id="go">');
+              '<input type="button" value="Go!" onclick="changeQuery(document.getElementById('begin').value);" />');
           infoWindow.setPosition(e.latLng);
           infoWindow.open(map);
 
