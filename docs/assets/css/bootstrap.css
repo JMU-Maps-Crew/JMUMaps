@@ -5772,3 +5772,8 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+
+/*Google map */
+#map-canvas img {
+  max-width: none;
+}
